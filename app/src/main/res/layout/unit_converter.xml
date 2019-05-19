@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    tools:context="com.technofreak.amit.unitconverter.MainActivity_unitConverter">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Choose Parameter"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="length"
+            android:text="Length"
+            android:textColor="#18ffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="area"
+            android:text="Area"
+            android:textColor="#18ffff"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="volume"
+            android:text="Volume"
+            android:textColor="#18ffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="mass"
+            android:text="mass"
+            android:textColor="#18ffff"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="velocity"
+            android:text="speed"
+            android:textColor="#18ffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="angle"
+            android:text="angle"
+            android:textColor="#18ffff"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="energy"
+            android:text="energy"
+            android:textColor="#18ffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="power"
+            android:text="power"
+            android:textColor="#18ffff"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="temp"
+            android:text="temperature"
+            android:textColor="#18ffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="pressure"
+            android:text="pressure"
+            android:textColor="#18ffff"
+            android:textSize="20sp" />
+    </TableRow>
+
+</TableLayout>
